@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban APP</title>
+     <!-- icons link here -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- style link -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="conbiner">
+        <h2>Task List</h2>
+      <div class="grid_containers"> 
+         <!--to do task  -->
+         <div class="contianer todo">
+            <div class="header">
+              <h3 class="title do">to do</h3>
+              <button class="add"><i class="fa-solid fa-add"></i></button>
+            </div>
+
+            <!-- examples -->
+            <div class="added_task" id="one">
+              <section class="empty-container wahid">
+                <h1 class="empty">Empty</h1>
+                <p class="empty_text">Click the add button to add <strong>tasks</strong>.</p>
+              </section>
+            </div>
+
+            <div class="task_input one">
+            </div>
+           <!-- close examples -->
+
+        </div>
+
+        <!-- in progress task -->
+        <div class="contianer progress">
+            <div class="header">
+              <h3 class="title in">in progress</h3>
+              <button class="add"><i class="fa-solid fa-add"></i></button>
+            </div>
+
+
+            <!-- examples -->
+            <div class="added_task" id="two">
+              <section class="empty-container esnan">
+                <h1 class="empty">Empty</h1>
+                <p class="empty_text">Click the add button to add <strong>tasks</strong>.</p>
+              </section>
+            </div>
+
+            <div class="task_input two">
+            </div>
+           <!-- close examples -->
+        </div>
+
+        <!-- done container -->
+        <div class="contianer done">
+            <div class="header">
+              <h3 class="title don">done</h3>
+              <button class="add"><i class="fa-solid fa-add"></i></button>
+            </div>
+
+            <!-- examples -->
+            <div class="added_task" id="three">
+              <section class="empty-container selasi">
+                <h1 class="empty">Empty</h1>
+                <p class="empty_text">Click the add button to add <strong>tasks</strong>.</p>
+              </section>
+            </div>
+
+            <div class="task_input three">
+            </div>
+           <!-- close examples -->
+        </div>
+      </div>
+    </div>
+
+    <div class="code_here">
+       <h3 id="code"><span class="code_sign">⬅️</span><a href="https://github.com/Mamesha3/kanban-tracker">See Code here</a></h3>
+    </div>
+
+     <!-- footer one here -->
+     <footer>
+        <h3 class="footer__title">© <span class="bold">2025</span> Toggle Mame | Front-End Developer</h3>
+     </footer>
+</body>
+</html>
