@@ -5,12 +5,6 @@ let countTaskDo = 0;
 let countTaskIn = 0;
 let countTaskdone = 0;
 
-// to get code click here
-document.querySelector('.code_sign').addEventListener('click',function () {
-      let code = document.querySelector('.code_here')
-      code.classList.toggle('showhere')
-      document.querySelector('.code_sign').innerHTML = '➡️'
-})
 
 // create task give taken input value for p tag
 function createTask(inputV, taskContainer) {

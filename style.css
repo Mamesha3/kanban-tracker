@@ -159,25 +159,7 @@ body {
     user-select: none;
     pointer-events: none;
 }
-.code_here {
-    position: absolute;
-    right: -150px;
-    top: 30px;
-}
-.showhere {
-    right: 0;
-}
-.code_here a {
-    color: white;
-    background-color: black;
-    padding: 5px 10px;
-    width: 250px;
-    border-radius: 5px;
-    text-align: center;
-}
-.code_sign {
-    cursor: pointer;
-}
+
 footer {
     background-color: black;
     color: white;
